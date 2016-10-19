@@ -1,0 +1,33 @@
+23:53:00.775 INFO - Launching a standalone Selenium Server
+23:53:00.868 INFO - Java: Oracle Corporation 24.79-b02
+23:53:00.868 INFO - OS: Mac OS X 10.12 x86_64
+23:53:00.912 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+23:53:01.092 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{platform=WINDOWS, ensureCleanSession=true, browserName=internet explorer, version=}] does not match the current platform MAC
+23:53:01.092 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{platform=WINDOWS, browserName=MicrosoftEdge, version=}] does not match the current platform MAC
+23:53:01.093 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+23:53:01.093 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+23:53:01.098 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+23:53:01.099 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+23:53:01.236 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+23:53:01.236 INFO - Selenium Server is up and running
+23:53:01.811 INFO - Executing: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Main}]])
+23:53:01.836 INFO - Creating a new session for Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Main}]
+Starting ChromeDriver 2.23.409710 (0c4084804897ac45b5ff65a690ec6583b97225c0) on port 2347
+Only local connections are allowed.
+23:53:03.470 INFO - Done: [new session: Capabilities [{platform=ANY, acceptSslCerts=true, javascriptEnabled=true, browserName=chrome, name=Main}]]
+23:53:03.486 INFO - Executing: [get: http://www.vscinemas.com.tw/CinemaSessions.aspx?Lang=2])
+23:53:04.483 INFO - Done: [get: http://www.vscinemas.com.tw/CinemaSessions.aspx?Lang=2]
+23:53:04.492 INFO - Executing: [find elements: By.cssSelector: body])
+23:53:04.535 INFO - Done: [find elements: By.cssSelector: body]
+23:53:04.540 INFO - Executing: [find elements: By.cssSelector: select[name="ddlCinema"] option[value="KS"]])
+23:53:04.557 INFO - Done: [find elements: By.cssSelector: select[name="ddlCinema"] option[value="KS"]]
+23:53:04.563 INFO - Executing: [find element: By.cssSelector: select[name="ddlCinema"] option[value="KS"]])
+23:53:04.582 INFO - Done: [find element: By.cssSelector: select[name="ddlCinema"] option[value="KS"]]
+23:53:04.586 INFO - Executing: [click: 1 [[ChromeDriver: chrome on MAC (60e3bdda5a04f057ba7a14c78fbfe76a)] -> css selector: select[name="ddlCinema"] option[value="KS"]]])
+23:53:09.944 INFO - Done: [click: 1 [[ChromeDriver: chrome on MAC (60e3bdda5a04f057ba7a14c78fbfe76a)] -> css selector: select[name="ddlCinema"] option[value="KS"]]]
+23:53:09.959 INFO - Executing: [find elements: By.cssSelector: body])
+23:53:09.968 INFO - Done: [find elements: By.cssSelector: body]
+23:53:09.972 INFO - Executing: [get page source])
+23:53:10.005 INFO - Done: [get page source]
