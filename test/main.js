@@ -15,7 +15,7 @@ module.exports = {
         browser
             .url('https://www.uniair.com.tw/uniweb/index.aspx')
             .waitForElementPresent('body')
-            // 選擇來回
+            // 選擇航班訊息
             .click('.tabs a:nth-child(2)')
             .pause(500)
             // 高雄 <--> 馬公
