@@ -52,12 +52,15 @@ module.exports = {
             .end()
     },
     '抓取高雄威秀資訊': (browser) => {
+
+        const theater = 'KS'
+
         browser
             .url('http://www.vscinemas.com.tw/CinemaSessions.aspx?Lang=2')
             .waitForElementPresent('body')
             // 選擇高雄威秀
-            .waitForElementPresent('select[name="ddlCinema"] option[value="KS"]')
-            .click('select[name="ddlCinema"] option[value="KS"]')
+            .waitForElementPresent(`select[name="ddlCinema"] option[value="${theater}"]`)
+            .click(`select[name="ddlCinema"] option[value="${theater}"]`)
             .waitForElementPresent('body')
             .source((result) => {
                 const cheerio = require("cheerio")
